@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/images"
+    tools:context=".SchoolFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select the school you would like to see." />
+
+    <Button
+        android:id="@+id/EngineeringButton"
+        android:layout_width="wrap_content"
+        android:text="Click here for School of Engineering Degrees"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/NursingButton"
+        android:layout_width="wrap_content"
+        android:text="Click here for School of Health Science Degrees"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/BusinessButton"
+        android:layout_width="wrap_content"
+        android:text="Click here for School of Business Degrees"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

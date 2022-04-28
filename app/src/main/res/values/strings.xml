@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">FinalProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="business_majors">
+        <item>Accounting</item>
+        <item>Baking</item>
+        <item>Brewing and Fermentation</item>
+        <item>Emergency Management and Homeland Security</item>
+        <item>Graphic Design</item>
+        <item>Human Services</item>
+    </string-array>
+    <string-array name="engineering_technologies">
+        <item>Applied Technology Studies</item>
+        <item>Architecture and Sustainable Design</item>
+        <item>Automated Manufacturing and Machining</item>
+        <item>Automotive</item>
+        <item>Aviation</item>
+        <item>Building Construction</item>
+        <item>Civil Engineering and Surveying</item>
+        <item>Collision Repair and Restoration</item>
+        <item>Construction Management</item>
+        <item>Diesel Truck Heavy Equipment and Power Generation</item>
+        <item>Electrical</item>
+        <item>Electronics and Computer Engineering Technology</item>
+        <item>Engineering</item>
+        <item>Forestry</item>
+        <item>HVAC</item>
+        <item>Heavy Equipment</item>
+        <item>Information Technology</item>
+        <item>Landscape/Plant Production</item>
+        <item>Plastics and Polymer Engineering</item>
+        <item>Welding and Metal Fabrication</item>
+    </string-array>
+    <string-array name="Nursing_Health_Sciences">
+        <item>Allied Health</item>
+        <item>Applied Health Studies</item>
+        <item>Dental Hygiene</item>
+        <item>Health Science</item>
+        <item>Nursing</item>
+        <item>Paramedic Prehospital Medicine</item>
+        <item>Physical Therapist Assistant</item>
+        <item>Physician Assistant</item>
+        <item>Radiography</item>
+        <item>Surgical Technology</item>
+    </string-array>
 </resources>
