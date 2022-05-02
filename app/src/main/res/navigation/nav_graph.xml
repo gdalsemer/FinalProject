@@ -7,24 +7,48 @@
     <fragment
         android:id="@+id/urlFragment"
         android:name="com.example.finalproject.UrlFragment"
-        android:label="fragment_url"
+        android:label="BROWSER"
         tools:layout="@layout/fragment_url" />
     <fragment
         android:id="@+id/schoolFragment"
         android:name="com.example.finalproject.SchoolFragment"
-        android:label="fragment_school"
+        android:label="Select School"
         tools:layout="@layout/fragment_school" >
         <action
             android:id="@+id/action_schoolFragment_to_engineeringFragment"
             app:destination="@id/engineeringFragment" />
+        <action
+            android:id="@+id/action_schoolFragment_to_businessFragment"
+            app:destination="@id/businessFragment" />
+        <action
+            android:id="@+id/action_schoolFragment_to_healthFragment"
+            app:destination="@id/healthFragment" />
     </fragment>
     <fragment
         android:id="@+id/engineeringFragment"
         android:name="com.example.finalproject.EngineeringFragment"
-        android:label="fragment_engineering"
+        android:label="School of Engineering"
         tools:layout="@layout/fragment_engineering" >
         <action
             android:id="@+id/action_engineeringFragment_to_urlFragment"
+            app:destination="@id/urlFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/businessFragment"
+        android:name="com.example.finalproject.BusinessFragment"
+        android:label="School of Business"
+        tools:layout="@layout/fragment_business" >
+        <action
+            android:id="@+id/action_businessFragment_to_urlFragment"
+            app:destination="@id/urlFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/healthFragment"
+        android:name="com.example.finalproject.HealthFragment"
+        android:label="School of Nursing and Health Science"
+        tools:layout="@layout/fragment_health" >
+        <action
+            android:id="@+id/action_healthFragment_to_urlFragment"
             app:destination="@id/urlFragment" />
     </fragment>
 </navigation>

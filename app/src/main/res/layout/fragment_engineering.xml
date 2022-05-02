@@ -5,23 +5,184 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/images"
     tools:context=".EngineeringFragment">
 
-    <Button
-        android:id="@+id/nextPage"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:padding="16dp"
-        android:text="Click me to open a webPage Viewer." />
+        android:textSize="32dp"
+        android:textAlignment="center"
+        android:padding="32dp"
+        android:text="This is the page for Engineering Majors"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:padding="16dp">
 
     <Button
         android:id="@+id/Button2"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:padding="16dp"
         android:text="Aviation" />
+
+            <Button
+                android:id="@+id/appliedTech"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Applied Technology Studies"/>
+
+            <Button
+                android:id="@+id/architecture"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Architecture and Sustainable Design"/>
+
+            <Button
+                android:id="@+id/automatedManufacture"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Automated Manufacturing Technology"/>
+
+            <Button
+                android:id="@+id/robotics"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Robotics and Automation"/>
+
+            <Button
+                android:id="@+id/automotiveTech"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Automotive Technology"/>
+
+            <Button
+                android:id="@+id/buildingConstruction"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Building Construction Technology"/>
+
+            <Button
+                android:id="@+id/civilEngineeringTech"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Civil Engineering Technology"/>
+
+            <Button
+                android:id="@+id/constructionManage"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Construction Management"/>
+
+            <Button
+                android:id="@+id/dieselTech"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Diesel Technology"/>
+
+            <Button
+                android:id="@+id/electricalConstruction"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Electrical Construction"/>
+
+            <Button
+                android:id="@+id/electricalTechnology"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Electrical Technology"/>
+
+            <Button
+                android:id="@+id/HVAC"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="HVAC Technology"/>
+
+            <Button
+                android:id="@+id/cyberSecurity"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Cyber Security"/>
+
+            <Button
+                android:id="@+id/networking"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Network"/>
+
+            <Button
+                android:id="@+id/softwareDevelopment"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Software Development and Information Management"/>
+
+            <Button
+                android:id="@+id/welding"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:text="Welding and Fabrication Engineering Technology"/>
+
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

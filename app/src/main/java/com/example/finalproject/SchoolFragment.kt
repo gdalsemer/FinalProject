@@ -8,16 +8,6 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.fragment.findNavController
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [SchoolFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class SchoolFragment : Fragment() {
 
     override fun onCreateView(
@@ -29,11 +19,20 @@ class SchoolFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_school, container, false)
 
-        val schoolButton = view.findViewById<Button>(R.id.EngineeringButton)
-        schoolButton.setOnClickListener(){
+        val engineeringButton = view.findViewById<Button>(R.id.EngineeringButton)
+        engineeringButton.setOnClickListener(){
             findNavController().navigate(R.id.action_schoolFragment_to_engineeringFragment)
         }
 
+        val nursingButton = view.findViewById<Button>(R.id.NursingButton)
+        nursingButton.setOnClickListener(){
+            findNavController().navigate(R.id.action_schoolFragment_to_healthFragment)
+        }
+
+        val businessButton = view.findViewById<Button>(R.id.BusinessButton)
+        businessButton.setOnClickListener(){
+            findNavController().navigate(R.id.action_schoolFragment_to_businessFragment)
+        }
 
         return view
     }
